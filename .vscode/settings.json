@@ -1,4 +1,7 @@
 {
   "editor.fontSize": 14.5,
+  "window.density.editorTabHeight": "compact",
+  "editor.tabSize": 2,
+  "workbench.colorTheme": "Kanagawa",
 }
 

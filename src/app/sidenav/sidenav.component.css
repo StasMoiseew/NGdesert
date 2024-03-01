@@ -1,5 +1,6 @@
 .example-container {
   display: flex;
+  background-color: black;
 }
 
 .example-sidenav {
