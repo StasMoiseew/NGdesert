@@ -1,7 +1,7 @@
 .about-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Две колонки равной ширины */
-  grid-gap: 20px; /* Промежуток между блоками */
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }
 
 .text {
@@ -12,7 +12,11 @@
 
 .text > h2{
   font-size: 70px;
+}
 
+.text > h1{
+  color: yellow;
+  font-size: 20px;
 }
 
 .image img {
@@ -24,4 +28,26 @@
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: yellow;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+
+.material-icons {
+  font-size: 20px;
+  vertical-align: middle;
+  color: yellow;
+}
+
 
