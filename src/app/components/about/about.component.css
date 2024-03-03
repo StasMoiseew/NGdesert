@@ -1,0 +1,27 @@
+.about-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Две колонки равной ширины */
+  grid-gap: 20px; /* Промежуток между блоками */
+}
+
+.text {
+  padding-top: 150px;
+  color: white;
+  text-align: left;
+}
+
+.text > h2{
+  font-size: 70px;
+
+}
+
+.image img {
+  max-width: 80%;
+  height: auto;
+}
+
+.image{
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
