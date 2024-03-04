@@ -15,4 +15,5 @@ import {HomeComponent} from "./pages/home/home.component";
 export class AppComponent {
   title = 'NGEnjoyer'
   logOutIcon = faArrowAltCircleRight;
+  isAuth = true;
 }

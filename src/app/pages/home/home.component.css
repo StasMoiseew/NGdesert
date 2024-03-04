@@ -7,19 +7,8 @@
   align-items: center;
 }
 
-.hero h1 {
-  font-size: 2rem;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  color: #777;
-}
-
 .features {
-  padding: 50px;
+  padding: 20px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -28,6 +17,5 @@
 }
 
 .features h2 {
-  font-size: 2rem;
   color: #333;
 }
