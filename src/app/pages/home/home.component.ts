@@ -6,8 +6,8 @@ import { AboutComponent } from '../../components/about/about.component';
   standalone: true,
   imports: [AboutComponent],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrl: './home.component.css',
 })
 export class HomeComponent {
- isAuth = true;
+  isAuth = true;
 }
