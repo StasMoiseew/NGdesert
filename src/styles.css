@@ -1,7 +1,15 @@
-html, body { height: 100%;  }
+html,
+body {
+  height: 100%;
+}
 body {
   margin: 0;
-  font-family: 'Roboto', 'Arial', 'Helvetica Neue', sans-serif;
-  background:linear-gradient(108.13deg, #320000 1%, #0F0323 37.66%, #322204 72.27%, #000230 98.74%);;
-  
-  }
+  font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+  background: linear-gradient(
+    108.13deg,
+    #320000 1%,
+    #0f0323 37.66%,
+    #322204 72.27%,
+    #000230 98.74%
+  );
+}
