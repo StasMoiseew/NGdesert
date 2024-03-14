@@ -7,10 +7,13 @@ import {
   FormsModule,
   ReactiveFormsModule,
 } from '@angular/forms';
-
 import { ErrorStateMatcher } from '@angular/material/core';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatCardModule } from '@angular/material/card';
 
 export class MyErrorStateMatcher implements ErrorStateMatcher {
   isErrorState(
@@ -30,6 +33,10 @@ export class MyErrorStateMatcher implements ErrorStateMatcher {
   selector: 'app-register-form',
   standalone: true,
   imports: [
+    MatCardModule,
+    MatDividerModule,
+    MatButtonModule,
+    MatIconModule,
     FormsModule,
     MatFormFieldModule,
     MatInputModule,
@@ -40,6 +47,11 @@ export class MyErrorStateMatcher implements ErrorStateMatcher {
 })
 export class RegisterFormComponent {
   emailFormControl = new FormControl('', [
+    Validators.required,
+    Validators.email,
+  ]);
+
+  passwordFormControl = new FormControl('', [
     Validators.required,
     Validators.email,
   ]);

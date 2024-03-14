@@ -7,3 +7,9 @@
 .example-full-width {
   width: 100%;
 }
+.reg-form-wrapper {
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 200px;
+  border: 1px solid #344;
+}

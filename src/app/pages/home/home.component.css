@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.features {
+.main {
   padding: 20px;
   text-align: center;
   display: flex;
@@ -15,7 +15,11 @@
   justify-content: center;
   align-items: center;
 }
-
-.features h2 {
-  color: #333;
+.tabsWrapper {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
